@@ -2,30 +2,22 @@
 var generateBtn = document.querySelector("#generate");
 
 /*
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-- if user clicks the button:
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+- first prompt (WINDOW.PROMPT), ask user for length of password. must be between 8-128 only.
+-- alert user if character legnth is under 8 or over 128 with "invalid entry"
 
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
+- second prompt (WINDOW.CONFIRM - this is a boolean - true / false), ask user the character type: lowercase, uppercase, numeric, special characters.
+-- add window.confirm  lowercase
+-- add window.confirm  uppercase
+-- add window.confirm  special characters
+-- add window.confirm  numbers
 
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
+- must create variables to tell the computer what it is.
+-- to save special characters
+-- to save numbers
+-- lowercase for A-Z
+-- uppercase for A-Z
 
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-
-- first prompt, ask user for length of password. must be between 8-128 only.
-- second prompt, ask user the character type: lowercase, uppercase, numeric, special characters.
--- add confirm to validate the character types. 
 - display password on the page
 
 */
