@@ -1,9 +1,8 @@
-# <Your-Project-Title>
+# 03 JavaScript: Password Generator
 
 ## Description
 
-User will use this app to generate and original and secure password. The main objective is to grant User security as they utilize their randomly generated password. 
-
+User will use this app to generate and original and secure password. The main objective is to grant User security as they utilize their generated password. 
 
 ## Table of Contents (Optional)
 
@@ -20,18 +19,16 @@ N/A
 
 ## Usage
 
-Use this link to view project:
+Use this link to view appplication:
 
 Provide instructions and examples for use. Include screenshots as needed.
-
+*test 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Collaborated with Lourdes and Annie!
+<li>https://github.com/lo-mido
+<li>https://github.com/asosadia88 
 
 ## License
 
@@ -44,10 +41,16 @@ MIT License
 
 ## Features
 
-User can choose how long and complex their password can be by selecting:
-<li>charcter length;
-<li>upper / lowercase text;
-<li> symbols
+* A generate button
+    * This button sets off a series of prompts and confirms for the User
+    * After User data is collected, a random password will generate, ready for use.
+
+ADD SCREENSHOT
+
+* A text area
+    * This is where the generated password will be displayed once it is created
+
+ADD SCREENSHOT
 
 ## How to Contribute
 
