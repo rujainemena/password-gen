@@ -33,7 +33,7 @@ function generatePassword() {
   var savePassword = ""
   var userLength = window.prompt("Enter your preferred password length.")
 
-  if (userLength > 8 && userLength <= 128) {
+  if (userLength >= 8 && userLength <= 128) {
     var isLowerCase = window.confirm("Do you want to include lower case letters?");
     var isUpperCase = window.confirm("Do you want to include capital letters?");
     var addNumber = window.confirm("Do you want to include numbers?");
@@ -67,18 +67,17 @@ function generatePassword() {
     window.alert("Invalid Entry")
   }
 
-  for (let i = 0; i < userLength; i++) {
-    const textLength = generatePassword(userLength);
-    
-    savePassword += textLength
-    break
-  }
-  return savePassword
+for (let i = 0; i < generatePassword.length; i++) {
+  const finalPass = generatePassword[i];
+  savePassword += finalPass
+  break
+}
+  return savePassword;
 }
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword(); //this function must be created.
+  var password = generatePassword(); 
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
