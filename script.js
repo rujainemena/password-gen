@@ -67,10 +67,8 @@ function generatePassword() {
     window.alert("Invalid Entry")
   }
 
-for (let i = 0; i < generatePassword.length; i++) {
-  const finalPass = generatePassword[i];
-  savePassword += finalPass
-  break
+for (let i = 0; i < userLength; i++) {
+  
 }
   return savePassword;
 }
