@@ -26,23 +26,20 @@ function generatePassword() {
     var addNumber = window.confirm("Do you want to include numbers?");
     var addCharacter = window.confirm("Do you want to include special characters?");
 
+    // if statements to proceed with custom characters for password
     if (isLowerCase === true) {
-      // var randomIndex = Math.floor(Math.random() * lowerCase.length);
       savePassword = savePassword.concat(lowerCase);
     }
 
     if (isUpperCase === true) {
-      // var randomIndex = Math.floor(Math.random() * upperCase.length);
       savePassword = savePassword.concat(upperCase);
     }
 
     if (addNumber === true) {
-      // var randomIndex = Math.floor(Math.random() * number.length);
       savePassword = savePassword.concat(number);
     }
 
     if (addCharacter === true) {
-      // var randomIndex = Math.floor(Math.random() * character.length);
       savePassword = savePassword.concat(character);
     }
 
