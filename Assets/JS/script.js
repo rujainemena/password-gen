@@ -38,12 +38,12 @@ function generatePassword() {
 
     if (addNumber === true) {
       // var randomIndex = Math.floor(Math.random() * number.length);
-      savePassword = savePassword.concat(addNumber);
+      savePassword = savePassword.concat(number);
     }
 
     if (addCharacter === true) {
       // var randomIndex = Math.floor(Math.random() * character.length);
-      savePassword = savePassword.concat(addCharacter);
+      savePassword = savePassword.concat(character);
     }
 
     if (isLowerCase === false && isUpperCase === false && addCharacter === false && addNumber === false) {
@@ -63,7 +63,6 @@ function generatePassword() {
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
 
 }
