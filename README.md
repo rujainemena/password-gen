@@ -21,7 +21,7 @@ N/A
 
 [Click here](https://rujainemena.github.io/password-gen/) to view application.
 
-![screenshot](/Assets/Images/03-javascript-homework-demo.png)
+![generator demo](/Assets/Images/03-javascript-homework-demo.png)
 
 ## Credits
 
@@ -41,16 +41,21 @@ MIT License
 
 ## Features
 
+This application features HTML, CSS, and JavaScript. 
+
+### In-App Features
+
 * A generate button
     * This button sets off a series of prompts and confirms for the User
     * After User data is collected, a random password will generate, ready for use.
 
-![]
+![generator app demo](/Assets/Images/password-app-demo.jpg)
 
 * A text area
-    * This is where the generated password will be displayed once it is created
+    * This is where the generated password will be displayed once it is created.
+    * User will be able to copy and paste from text area.
 
-ADD SCREENSHOT
+![text area](/Assets/Images/text-area-demo.jpg)
 
 ## How to Contribute
 
