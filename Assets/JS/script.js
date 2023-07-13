@@ -19,6 +19,7 @@ function generatePassword() {
     window.alert("Invalid Entry. Please enter a number between 8 and 128.")
     return;
   }
+
   // confirm prompts for users to style their password. 
   if (userLength >= 8 && userLength <= 128) {
     var isLowerCase = window.confirm("Do you want to include lower case letters?");

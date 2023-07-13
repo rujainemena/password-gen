@@ -2,7 +2,7 @@
 
 ## Description
 
-User will use this app to generate and original and secure password. The main objective is to grant User security as they utilize their generated password. 
+User will utilize this app to generate and original and secure password. The main objective is to generate a random password using the User's elective characters.
 
 ## Table of Contents (Optional)
 
@@ -19,16 +19,16 @@ N/A
 
 ## Usage
 
-Use this link to view appplication:
+[Click here](https://rujainemena.github.io/password-gen/) to view application.
 
-Provide instructions and examples for use. Include screenshots as needed.
-*test 
+![screenshot](/Assets/Images/03-javascript-homework-demo.png)
 
 ## Credits
 
-Collaborated with Lourdes and Annie!
+Collaborated with Lourdes, Annie, and Julio!
 <li>https://github.com/lo-mido
 <li>https://github.com/asosadia88 
+<li>https://github.com/juliobermudez
 
 ## License
 
@@ -45,7 +45,7 @@ MIT License
     * This button sets off a series of prompts and confirms for the User
     * After User data is collected, a random password will generate, ready for use.
 
-ADD SCREENSHOT
+![]
 
 * A text area
     * This is where the generated password will be displayed once it is created
