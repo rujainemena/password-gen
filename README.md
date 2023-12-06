@@ -4,7 +4,7 @@
 
 User will utilize this app to generate and original and secure password. The main objective is to generate a random password using the User's elective characters.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
